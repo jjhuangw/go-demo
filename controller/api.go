@@ -1,9 +1,12 @@
-package api
+package controller
+
+// package can different with folder name, but suggest the same
 
 import "fmt"
 
 var Morning = "good morning"
 
 func Call() {
-	fmt.Println("12345")
+	x := 123
+	fmt.Println(x)
 }
